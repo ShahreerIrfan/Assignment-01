@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Josefin+Sans:wght@100&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero {
+    display: flex;
+    padding-left: 6%;
+    padding-right: 6%;
+    /* min-height: 400px; */
+}
+
+.hero-left {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.head-line {
+    border-left: 7px solid rgb(255, 2, 120);
+    padding-left: 10px;
+}
+
+.hero-left .head-line .back {
+    font-size: 70px;
+}
+
+.hero-left .head-line .red {
+    font-size: 70px;
+    color: rgb(154, 10, 70);
+}
+
+.hero-left p {
+    font-size: 30px;
+}
+
+.hero-left a {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.hero-left h4 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right img {
+    width: 60%;
+    float: right;
+}
+
+/* .......................... */
+.secound-heading h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.orange {
+    color: orange;
+}
+
+/* ....................... */
+
+#my-mission {
+    display: flex;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.mission {
+    width: 30%;
+    height: 400px;
+    background-color: #edf5f6;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 40px;
+
+
+}
+
+
+
+.vission {
+    width: 30%;
+    height: 400px;
+    background-color: #ffeeee;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+.goals {
+    width: 30%;
+    height: 400px;
+    background-color: #fff4d6;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+.mission img {
+    width: 150px;
+    margin-left: -20px;
+}
+
+.vission img {
+    width: 150px;
+    margin-left: -20px;
+}
+
+.goals img {
+    width: 150px;
+    margin-left: -20px;
+}
+
+.mission h4 {
+    font-size: 20px;
+}
+
+.vission h4 {
+    font-size: 20px;
+}
+
+.goals h4 {
+    font-size: 20px;
+}
